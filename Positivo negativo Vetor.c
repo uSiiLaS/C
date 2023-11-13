@@ -13,8 +13,7 @@ Welcome to GDB Online.
 #include <time.h>
 #include <ctype.h>
 
-int
-main ()
+int main ()
 {
 float numeros[10];
 int negativo=0;
