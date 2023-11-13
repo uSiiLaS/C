@@ -17,7 +17,7 @@ int main()
 {
 int numeros[5];
 int i;
-int menor = 999;
+int menor = 9999;
 int maior=0;
 
 for(i=0; i<5; i++){
