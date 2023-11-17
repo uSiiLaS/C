@@ -27,7 +27,7 @@ int main()
 
     for (i = 0; i < 5; i++)
     {
-        printf("Digite o %dº número: ", i + 1);
+        printf("Digite o %dÂº nÃºmero: ", i + 1);
         scanf("%d", &valor[i]);
 
         if (valor[i] % 2 == 0)
@@ -63,14 +63,14 @@ int main()
     printf("\n");
 
     printf("Quantidade de PARES: %d\nQuantidade de IMPARES: %d\n", par, impar);
-    printf("Quantidade de números POSITIVOS: %d\nQuantidade de números NEGATIVOS: %d\n", positivo, negativo);
-    printf("Quantidade de números inseridos: %d\n", quantidadeTotal);
-    printf("Maior número: %d\nMenor número: %d\n", maior, menor);
-    printf("Média dos números PARES: %.2f\n", mediaPar);
-    printf("Média dos números IMPARES: %.2f\n", mediaImpar);
-    printf("Média dos números inseridos: %.2f\n", mediaTotal);
+    printf("Quantidade de nÃºmeros POSITIVOS: %d\nQuantidade de nÃºmeros NEGATIVOS: %d\n", positivo, negativo);
+    printf("Quantidade de nÃºmeros inseridos: %d\n", quantidadeTotal);
+    printf("Maior nÃºmero: %d\nMenor nÃºmero: %d\n", maior, menor);
+    printf("MÃ©dia dos nÃºmeros PARES: %.2f\n", mediaPar);
+    printf("MÃ©dia dos nÃºmeros IMPARES: %.2f\n", mediaImpar);
+    printf("MÃ©dia dos nÃºmeros inseridos: %.2f\n", mediaTotal);
 
-    printf("\nNúmeros inseridos na ordem inversa;\n");
+    printf("\nNÃºmeros inseridos na ordem inversa;\n");
 
     for (i = 4; i >= 0; i--)
     {
